@@ -5,6 +5,10 @@ nav{
     vertical-align: middle;
     background-color: rgba(0, 0, 0, 0.568);
     height: 50px;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    /* position: fixed; */
     /* border-style: solid; 
     border-color: rgb(16, 220, 77); */
   }
