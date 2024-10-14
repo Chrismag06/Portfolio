@@ -86,99 +86,119 @@
                 </div>
             </div>
 
-            <div class="d-flex justify-content-evenly accordion">
+            <div class="d-flex justify-content-evenly accordion" id="accordionExample">
                 <div class="col-8 mt-3 accordion-item">
-                    <div class="bg-secondary-subtle rounded accordion-header">
-                        <P class="h4  ms-4 mt-4">2020/2023 ELYSYS - Monaco</P>
-                        <P class="ms-4">Société d'édition et de service informatique spécialisé dans l'industrie
-                            financière (Télétravail hybride)</P>
-                    </div>
-                    <div class="accordion-body">
-                        <ul class="list-group">
-                            <li class="list-group-item">Extension du système gestion de portefeuille pour un <a
-                                    href="https://fr.wikipedia.org/wiki/Family_office" target="_blank">family office</a>
-                                situé à Londres avec l'ERP Microsoft Dynamics NAV
+                    <button class="accordion-button bg-secondary-subtle " type="button" data-bs-toggle="collapse"
+                        data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                        <div class="bg-secondary-subtle rounded accordion-header">
+                            <P class="h4  ms-4 mt-4">2020/2023 ELYSYS - Monaco</P>
+                            <P class="ms-4">Société d'édition et de service informatique spécialisé dans l'industrie
+                                financière (Télétravail hybride)</P>
+                        </div>
+                    </button>
+                    <div id="collapseOne" class="accordion-collapse collapse show" data-bs-parent="#accordionExample">
+                        <div class="accordion-body">
+                            <ul class="list-group">
+                                <li class="list-group-item">Extension du système gestion de portefeuille pour un <a
+                                        href="https://fr.wikipedia.org/wiki/Family_office" target="_blank">family
+                                        office</a>
+                                    situé à Londres avec l'ERP Microsoft Dynamics NAV
+                                    <ul>
+                                        <li>Extension de la gestion des différents flux vers la comptabilité pour les
+                                            investissements
+                                            Equity, Private Equity, Options, forwards, Spot</li>
+                                        <li>Mise à jour régulière intégration des développements hebdomadaires de
+                                            l'équipe
+                                        </li>
+                                        <li>Création script PowerShell d'aide à la migration, export de code, résultat
+                                            de
+                                            comparaisons de fichiers</li>
+                                        <li>Suivit quotidien avec l'équipe Elysys et l'équipe cliente en anglais</li>
+                                        <li>Création d'un module de contrôle des Post entre Front Office, Mid Office,
+                                            Back
+                                            Office
+                                        </li>
+                                        <li>Développement d'un module en AL Code pour le reclassement dans différents
+                                            portefeuilles
+                                            des
+                                            investissements postés</li>
+                                        <li>Participation au développement du module Loan</li>
+                                    </ul>
+                                </li>
+                                <li class="list-group-item">Adaptation pour un family office d'un module Dynamics NAV de
+                                    paiement sur la gestion de comptabilité développé précédemment
+                                    <ul>
+                                        <li>Mise en place de l'automatisation des tests de Business Central en relation
+                                            avec
+                                            l'équipe métiers</li>
+                                        <li>Création, maintenance et exécution de tests fonctionnels automatisés</li>
+                                        <li>Mise en place de l'Intégration continue des tests</li>
+                                        <li>Rédaction de procédures techniques pour la mise en place d'environnement de
+                                            test,
+                                            l'exécution des
+                                            tests automatisés</li>
+                                        <li>Administration des environnements de test</li>
+                                </li>
+
+                            </ul>
+                            <li class="list-group-item">Venus add on continia</li>
+                            <li class="list-group-item">Participation à la migration du code de Dynamics NAV à Business
+                                Central</li>
+                            <li class="list-group-item">Migration Business Central de version 18, 19 à version 20, 21
                                 <ul>
-                                    <li>Extension de la gestion des différents flux vers la comptabilité pour les
-                                        investissements
-                                        Equity, Private Equity, Options, forwards, Spot</li>
-                                    <li>Mise à jour régulière intégration des développements hebdomadaires de l'équipe
+                                    <li>
+                                        Création d'un script PowerShell pour automatiser les migrations
                                     </li>
-                                    <li>Création script PowerShell d'aide à la migration, export de code, résultat de
-                                        comparaisons de fichiers</li>
-                                    <li>Suivit quotidien avec l'équipe Elysys et l'équipe cliente en anglais</li>
-                                    <li>Création d'un module de contrôle des Post entre Front Office, Mid Office, Back
-                                        Office
-                                    </li>
-                                    <li>Développement d'un module en AL Code pour le reclassement dans différents
-                                        portefeuilles
-                                        des
-                                        investissements postés</li>
-                                    <li>Participation au développement du module Loan</li>
                                 </ul>
                             </li>
-                            <li class="list-group-item">Adaptation pour un family office d'un module Dynamics NAV de
-                                paiement sur la gestion de comptabilité développé précédemment
-                                <ul>
-                                    <li>Mise en place de l'automatisation des tests de Business Central en relation avec
-                                        l'équipe métiers</li>
-                                    <li>Création, maintenance et exécution de tests fonctionnels automatisés</li>
-                                    <li>Mise en place de l'Intégration continue des tests</li>
-                                    <li>Rédaction de procédures techniques pour la mise en place d'environnement de
-                                        test,
-                                        l'exécution des
-                                        tests automatisés</li>
-                                    <li>Administration des environnements de test</li>
-                            </li>
 
-                        </ul>
-                        <li class="list-group-item">Venus add on continia</li>
-                        <li class="list-group-item">Participation à la migration du code de Dynamics NAV à Business
-                            Central</li>
-                        <li class="list-group-item">Migration Business Central de version 18, 19 à version 20, 21
-                            <ul>
-                                <li>
-                                    Création d'un script PowerShell pour automatiser les migrations
-                                </li>
-                            </ul>
-                        </li>
-
-                        <div class="bg-body-secondary rounded mt-3">
-                            <P class="h6 ms-2 ">Environnement Technique :</P>
-                            <P class="ms-2 ">Langage de programmation AL, Visual Studio Code, PowerShell, TSQL, Excel
-                                VBA, Git, Azure
-                                DevOps</P>
+                            <div class="bg-body-secondary rounded mt-3">
+                                <P class="h6 ms-2 ">Environnement Technique :</P>
+                                <P class="ms-2 ">Langage de programmation AL, Visual Studio Code, PowerShell, TSQL,
+                                    Excel
+                                    VBA, Git, Azure
+                                    DevOps</P>
+                            </div>
                         </div>
                     </div>
+                    <button class="accordion-button bg-secondary-subtle " type="button" data-bs-toggle="collapse"
+                        data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
 
-                    <div class="bg-secondary-subtle rounded">
+                        <div class="bg-secondary-subtle rounded  accordion-header">
 
-                        <P class="h4  m-2">2018/2020 KEESYSTEM - Monaco</P>
-                        <P class="m-2">Développement de système de gestion financière de portefeuilles
-                            automatisée (Pour gérants indépendants, family offices et banques privées)</P>
-                    </div>
-                    <div>
-                        <ul>
-                            <li>Développement, Upgrade de la solution</li>
-                            <li>Refonte de l'interface en collaboration avec l'équipe UX</li>
-                            <li>Rédaction de documentations, manuels d'utilisation en collaboration entre autres
-                                l'équipe
-                                support</li>
-                            <li>Création d'interfaces de Banques via des fichiers propriétaires</li>
-                            <li>Participation au développement d'un module de compliance (questionnaire de banques)</li>
-                        </ul>
+                            <P class="h4  m-2">2018/2020 KEESYSTEM - Monaco</P>
+                            <P class="m-2">Développement de système de gestion financière de portefeuilles
+                                automatisée (Pour gérants indépendants, family offices et banques privées)</P>
+                        </div>
+                    </button>
+                    <div id="collapseOne" class="accordion-collapse collapse show" data-bs-parent="#accordionExample">
+                        <div class="accordion-body">
+                            <ul>
+                                <li>Développement, Upgrade de la solution</li>
+                                <li>Refonte de l'interface en collaboration avec l'équipe UX</li>
+                                <li>Rédaction de documentations, manuels d'utilisation en collaboration entre autres
+                                    l'équipe
+                                    support</li>
+                                <li>Création d'interfaces de Banques via des fichiers propriétaires</li>
+                                <li>Participation au développement d'un module de compliance (questionnaire de banques)
+                                </li>
+                            </ul>
 
-                        <div class="bg-body-secondary rounded mt-3">
-                            <P class="h6 ms-2 ">Environnement Technique : </P>
-                            <P class="ms-2 ">FileMaker Pro</P>
+                            <div class="bg-body-secondary rounded mt-3">
+                                <P class="h6 ms-2 ">Environnement Technique : </P>
+                                <P class="ms-2 ">FileMaker Pro</P>
+                            </div>
                         </div>
                     </div>
                     <!-- <div class="col-8 mt-3 "> -->
-                    <div class="bg-secondary-subtle rounded">
+                        <button class="accordion-button bg-secondary-subtle " type="button" data-bs-toggle="collapse"
+                        data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                    <div class="bg-secondary-subtle rounded   accordion-header">
                         <P class="h4  m-2">2004/2017 SCGI puis ELYSYS - Monaco</P>
                         <P class="ms-4">Société d'édition et de service Informatique spécialisé dans l'industrie
                             financière</P>
                     </div>
+                </button>
                     <div>
                         <ul>
                             <li>Développement en VB6 d'une Interface entre le logiciel de comptabilité
