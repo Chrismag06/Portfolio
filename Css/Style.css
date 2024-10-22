@@ -41,3 +41,28 @@ footer {
   width: 100%;
   z-index: 99;
 }
+
+div.WorkContainer {
+  width:100%;
+  overflow:auto;
+}
+/* 
+div.WorkContainer div {
+  width:33%;  
+  float:left;
+} */
+
+img.WorkImage{
+  width: 150px;
+}
+
+.ImgEntreprise{
+  width:33%; 
+  float:left;
+}
+
+/* .TxtEntreprise{
+  width:80%; 
+  /* float:left; 
+} */
+
