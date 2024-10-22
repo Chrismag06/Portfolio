@@ -10,7 +10,9 @@ nav {
   z-index: 99;
 }
 
-
+.identite{
+  width: 170px;
+}
 
 .Liens {
   display: flex;
