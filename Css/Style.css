@@ -66,3 +66,13 @@ img.WorkImage{
   /* float:left; 
 } */
 
+ul.PageIndex {
+  list-style: none;
+}
+
+ul.PageIndex li:before {
+  content: '\2714\0020';
+} 
+
+
+
