@@ -46,6 +46,23 @@ footer {
   z-index: 99;
 }
 
+.telechargerCV{
+  display: flex;
+  justify-content: right;
+  vertical-align: middle;
+  background-color: rgba(255, 255, 255, 0.568);
+  height: 40px;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  z-index: 99;
+}
+
+.boutonTelechargerCV{
+  position: fixed;
+  bottom: 0;
+}
+
 div.WorkContainer {
   width:100%;
   overflow:auto;
